@@ -26,10 +26,4 @@ for(i = 1; i <= round; i ++){
     console.log(`Fighter 1 HP: ${fighter1.hp} | Fighter 2 HP: ${fighter2.hp}`)
 };
 
-if(fighter1.hp > fighter2.hp){
-    console.log("Player 1 wins!");
-} else if(fighter2.hp > fighter1.hp){
-    console.log("Player 2 wins!");
-} else{
-    console.log("Draw!");
-}
+(fighter1.hp > fighter2.hp) ? console.log(`Fighter 1 Wins!`) : console.log(`Fighter 2 Wins!`);
